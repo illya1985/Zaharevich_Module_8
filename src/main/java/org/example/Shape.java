@@ -1,6 +1,6 @@
 package org.example;
 
-public class Shape {
+public abstract class Shape {
     public String shapeName;
     public String getShapeName() {
         return shapeName;
@@ -9,11 +9,6 @@ public class Shape {
     public void setShapeName(String shapeName) {
         this.shapeName = shapeName;
     }
-     public void printShape() {
-        System.out.println();
-
-    }
-
-
+    
+     public abstract void printShape();
 }
-
